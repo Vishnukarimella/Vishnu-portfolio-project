@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@400;600;700&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+body{
+ /* background-image:linear-gradient(to right, #db4b95 0%, #37a8c7 100%);*/
+ background-image:url("starbg.jpg");
+}
+
+.proj{
+  /* background-image:linear-gradient(to right, #db4b95 0%, #37a8c7 100%);*/
+  background-image:linear-gradient(white, aqua);
+ }
+
+.myprof{
+   padding:80px;
+   ul{
+    list-style: none;
+    padding: 0;
+   }
+   li{
+    margin-bottom: 10px;
+   }
+   a{
+    color:#333;
+    text-decoration: none;
+   }
+   a:hover{
+    color: #000;
+   }
+
+   .fa-brands fa-facebook{
+      font-size: 500px;
+   }
+}
+
+.container{
+  display: flex;
+}
+
+.box1{
+     display: inline-block;
+     padding:0 55px;  
+}
+
+.box1 img{
+     padding-top: 100px;
+     width:565px;
+     height: 655px;
+     margin-left: 0;
+     align-self: center;
+}
+
+.box2{
+     display: inline-block;
+     width: 500px;
+     height:350px;
+     margin: 200px auto;
+     background: linear-gradient(135deg,rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+     backdrop-filter: blur(10px);
+     -webkit-backdrop-filter:blur(10px);
+     border-radius: 20px;
+     border:1px solid rgba(255, 255, 255, 0.18);
+     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.wrapper{
+  margin: auto;
+  padding:40px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.wrapper .header-text{
+     font-size: 32px;
+     font-weight: 600;
+     padding-bottom: 30px;
+     text-align: center;
+     color:white;
+}
+
+.Edqua{
+  flex: 0 1 45%;
+  margin-bottom: 20px;
+  padding: 15px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.733), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter:blur(10px);
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  text-align: justify;
+  width:300px;
+  height:250px;
+  font-size: 18px;
+}
+
+.myprof{
+  i:hover{
+    transform: scale(1.5);
+    transition: all 0.5s;
+  }
+}
+
+.Edqua2{
+  align-items: center;
+  justify-content: center
+  flex: 0 1 45%;
+  margin-bottom: 10px;
+  padding: 15px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.733), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter:blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  height:250px;
+  font-size:18px;
+}
+
+.Edqua3{
+  align-items: center;
+  justify-content: center
+  flex: 0 1 45%;
+  margin-bottom: 15px;
+  padding: 30px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.733), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter:blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  text-align: justify;
+  font-size: 18px;
+}
+
+.Edqua-container{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  h3 {
+   color:black;
+   }
+  padding: 80px 40px;
+  row-gap: 30px;
+  column-gap: 0px;
+}
+
+
+.pro1 {
+  flex: 0 1 45%;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  p{
+    text-align: justify;
+  }
+}
+
+.pro1 img{
+  width: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width:520px;
+  height:295px;
+  margin-left:70px;
+}
+
+.Edqua2 img{
+  width: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width:90px;
+  height:90px;
+  margin-left:20px;
+  border-radius: 10px;
+}
+
+.pro1-details {
+  display: flex;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+}
+
+.project{
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  h3 {
+   color:red;
+   }
+   padding:60px 0;
+   row-gap: 30px;
+}
+
+.pro1 h2{
+  color:darkturquoise;
+  text-decoration:underline;
+}
+
+.vish img{
+  width: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width:500px;
+  height:315px;
+  margin-left:70px;
+}
+
+.pro1 img:hover{
+  transform: scale(1.09);
+  transition: .5s ease-in-out;
+}
+
+.Edqua2 img:hover{
+  filter:grayscale(1);
+  transform: scale(1.29);
+  transition: .5s ease-in-out;
+}
+
+.Edqua:hover{
+  transform: scale(1.10);
+  transition: all 0.5s;
+}
+
+.Edqua2:hover{
+  transform: scale(1.10);
+  transition: all 0.5s;
+}
+
+.Edqua3:hover{
+  transform: scale(1.10);
+  transition: all 0.5s;
+}
+
+.wrapper input{
+  margin:10px 0;
+  border: none;
+  padding: 10px;
+  border-radius:5px;
+  width:100%;
+  font-size: 16px;
+}
+
+.wrapper span{
+  font-size: 16px;
+  color: white;
+  align-items: center;
+
+}
+
+span a{
+  color:yellow;
+  align-items: center;
+}
+
+.wrapper button{
+  background-color:#ff3399 ;
+  color:#fff;
+  border:none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+nav img{
+  width:67px;
+  height:60px;
+  margin: 6px 300px;
+  box-shadow: #ff3399;
+  border-radius: 5px;
+}
+nav{
+  background: #0082e6;
+  height: 75px;
+  width:100%;
+  line-height:75px;
+  position:fixed;
+  background-image: linear-gradient(#033747, #012733);
+  border-radius: 5px;
+}
+label.logo{
+  color: white;
+  font-size: 30px;
+  line-height: 80px;
+  padding: 0 50px;
+  font-weight: bold;
+  float:left;
+  text-transform:capitalize;
+  letter-spacing :1.5px;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+  position: inline;
+}
+nav li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px ;
+  text-transform: uppercase;
+  text-decoration:none;
+}
+ 
+hr{
+     height:35px;
+     width: 25%;
+     margin:  -59px -10px;
+     background: linear-gradient(to right, #ffff00 0%, #ff3399 100%);
+     border:none;
+     border-radius: 25px;
+     transition: .5s ease-in-out;
+}
+
+.two:hover  ~ hr
+{
+    margin-left : 18.7%;
+}
+
+.three:hover  ~ hr
+{
+    margin-left : 45.6%;
+}
+
+.four:hover  ~ hr
+{
+    margin-left : 74%;
+}
+
+footer {
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position:bottom;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter:blur(10px);
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
